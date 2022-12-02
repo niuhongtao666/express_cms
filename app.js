@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 //允许跨域
-app.use(cors());
+// app.use(cors());
 
 //配置session的中间件
 app.use(
